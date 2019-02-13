@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <body>
+      <form action="/action_page.php">
+        <div class="container">
+          <h1>Moonlight Marchen Rhapsody </h1>
+          <h2>Sign up form</h2>
+          <p>To play the game, please enter the necessary data</p>
+          <hr>
+
+          <label for="name"><b>Full Name</b></label><br>
+            <input type = "text" name = "name" placeholder = "Enter your name (e.g. Kerlark Dgrayman)" /><br>
+
+          <label for="email"><b>Email</b></label><br>
+            <input type="email" placeholder="Enter Email (e.g. abcdefgh@gmail.com)" name="email" required><br>
+
+          <label for="psw"><b>Password</b></label><br>
+            <input type="password" placeholder="Enter Password (e.g. 15F34V346BES)" name="psw" required><br>
+
+          <label for="psw-repeat"><b>Repeat Password</b></label><br>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+          <label for="bday"><b>Birthday</b></label><br>
+            <input type="date" name="bday" required><br>
+
+          <label for="country"><b>Country</b></label><br>
+            <input type="country" placeholder="01/01/1999 (e.g. Philippines)" name="country" required><br>
+
+          <label for="gender"><b>Gender</b></label><br>
+            <input type = "radio" name= "gender" value="male"> Male
+            <input type = "radio" name= "gender" value="female"> Female
+
+          <hr>
+          <input type="checkbox" name="checkbox" value="Anything">"By creating an account and checking the box, you agree to our <a href="#">Terms & Privacy</a>.<br>
+
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+        
+        <div class="container signin">
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+      </form>
+      <div class = "image"></div>
+
+    </body>
+</html>
